@@ -10,8 +10,8 @@ npm install module-resolves --save
 ```js
 var module_resolves = require('module-resolves');
 
-if (module_resolves('./your-directory/your-module.js')) {
-   var your-module = require('./your-directory/your-module.js');
+if (module_resolves('./your-directory/yourModule.js')) {
+   var yourModule = require('./your-directory/yourModule.js');
 }
 ```
 
