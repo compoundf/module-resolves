@@ -1,5 +1,5 @@
 # module resolves
-Checks to see if a node module (or custom module) exists -- WITHOUT requiring it. If it exists, do stuff, if not, return false.
+Checks to see if a node module (or custom module) exists -- WITHOUT requiring it. If it exists, it will return true, if not, return false. Similar modules will go ahead and require it if it exists, but this one does not. It's been helpful for me! Perhaps you can get some use out of it also :)
 
 ## Installation
 ```
